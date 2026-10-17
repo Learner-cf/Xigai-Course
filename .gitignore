@@ -1,0 +1,48 @@
+# ===== 临时文件与缓存 =====
+*.tmp
+*.temp
+*.log
+*.bak
+*.old
+*~
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ===== 抓取/调试的中间产物（本轮调研的原始抓取文件，不上传） =====
+_raw/
+_raw2/
+*.html
+*.json
+
+# ===== Python / Node 缓存 =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.cache/
+
+# ===== 环境变量与凭据（防止误提交敏感信息） =====
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.pfx
+*credential*
+*secret*
+*token*
+!research/**
+.gh_token
+gh_token.txt
+token.txt
+credentials.json
+
+# ===== 编辑器/IDE =====
+.vscode/
+.idea/
+*.code-workspace
+
+# ===== 原始调研工作目录（内容已同步到 research/，不重复上传） =====
+习概_网络安全与信息保护_调研资料/
